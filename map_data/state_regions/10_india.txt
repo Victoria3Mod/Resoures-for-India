@@ -98,7 +98,7 @@ STATE_DELHI = {
     arable_land = 252
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_opium_plantations" }
     capped_resources = {
-        bg_logging = 10
+        bg_logging = 14
         bg_sulfur_mining = 12
     }
 }
@@ -134,8 +134,8 @@ STATE_AGRA = {
     capped_resources = {
         bg_monuments = 1
         bg_logging = 6
-        bg_coal_mining = 8
-        bg_iron_mining = 4
+        bg_coal_mining = 16
+        bg_iron_mining = 8
     }
 }
 
@@ -153,13 +153,13 @@ STATE_GUJARAT = {
     arable_land = 335
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_opium_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_silk_plantations" }
     capped_resources = {
-        bg_logging = 4
+        bg_logging = 8
         bg_fishing = 16
-        bg_iron_mining = 8
+        bg_iron_mining = 16
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 16
+        undiscovered_amount = 24
     }
     naval_exit_id = 3048
 }
@@ -179,7 +179,7 @@ STATE_BUNDELKHAND = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_sugar_plantations" "bg_silk_plantations" }
     capped_resources = {
         bg_logging = 18
-        bg_coal_mining = 24
+        bg_coal_mining = 28
         bg_iron_mining = 16
     }
 }
@@ -199,7 +199,7 @@ STATE_MALWA = {
     capped_resources = {
         bg_logging = 8
         bg_iron_mining = 22
-        bg_coal_mining = 8
+        bg_coal_mining = 16
     }
 }
 
@@ -216,7 +216,7 @@ STATE_KASHMIR = {
     arable_land = 85
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_dye_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_vineyard_plantations" "bg_silk_plantations" }
     capped_resources = {
-        bg_iron_mining = 16
+        bg_iron_mining = 18
         bg_logging = 17
     }
 }
@@ -235,8 +235,8 @@ STATE_PUNJAB = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_silk_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_coal_mining = 24
-        bg_iron_mining = 12
-        bg_logging = 11
+        bg_iron_mining = 20
+        bg_logging = 15
     }
     resource = {
         type = "bg_oil_extraction"
@@ -257,7 +257,7 @@ STATE_HILL_PUNJAB = {
     arable_land = 182
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_silk_plantations" }
     capped_resources = {
-        bg_logging = 9
+        bg_logging = 14
         bg_iron_mining = 24
     }
 }
@@ -293,9 +293,9 @@ STATE_SINDH = {
     arable_land = 75
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_opium_plantations" "bg_sugar_plantations" "bg_tobacco_plantations" "bg_banana_plantations" }
     capped_resources = {
-        bg_sulfur_mining = 8
+        bg_sulfur_mining = 14
         bg_fishing = 12
-        bg_logging = 6
+        bg_logging = 9
     }
     naval_exit_id = 3048
 }
@@ -395,7 +395,7 @@ STATE_CIRCARS = {
     arable_land = 181
     arable_resources = { "bg_rice_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_silk_plantations" }
     capped_resources = {
-        bg_coal_mining = 16
+        bg_coal_mining = 19
         bg_iron_mining = 8
         bg_logging = 11
         bg_fishing = 18
@@ -649,7 +649,7 @@ STATE_PEGU = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 10
+        undiscovered_amount = 20
     }
     naval_exit_id = 3050
 }
@@ -672,7 +672,7 @@ STATE_ARAKAN = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 14
+        undiscovered_amount = 22
     }
     naval_exit_id = 3050
 }
